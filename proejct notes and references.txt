@@ -1,1 +1,2 @@
 ctrl + c    :   end next.js app
+npm run dev :   builds project

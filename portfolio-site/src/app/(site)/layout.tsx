@@ -20,7 +20,7 @@ export default function SiteLayout({
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6">
           <div className="flex items-center gap-8">
             <Link className="text-lg font-semibold tracking-wide" href="/">
-              Ivan Zhang
+              Ivan Zapote
             </Link>
             <nav className="hidden items-center gap-6 text-sm font-medium text-neutral-600 md:flex">
               {navLinks.map((link) => (
@@ -67,7 +67,7 @@ export default function SiteLayout({
 
       <footer className="border-t border-neutral-200 bg-white">
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-8 text-sm text-neutral-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
-          <p>(c) {new Date().getFullYear()} Ivan Zhang. Crafted with Next.js.</p>
+          <p>(c) {new Date().getFullYear()} Ivan Zapote. Crafted with Next.js.</p>
           <div className="flex gap-4 text-sm">
             <a className="transition hover:text-neutral-800" href="mailto:hello@example.com">
               hello@example.com

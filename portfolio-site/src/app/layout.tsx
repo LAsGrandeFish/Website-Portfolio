@@ -13,24 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ivan Zhang - Software Engineer",
+  title: "Ivan Zapote - Software Engineer",
   description: "Portfolio template highlighting projects, writing, and resources for a software engineer.",
   metadataBase: new URL("https://example.com"),
   openGraph: {
-    title: "Ivan Zhang - Software Engineer",
+    title: "Ivan Zapote - Software Engineer",
     description: "Showcasing side projects, resources, and writing on building resilient products.",
     images: [
       {
         url: "/profile-placeholder.svg",
         width: 1200,
         height: 630,
-        alt: "Ivan Zhang portfolio preview",
+        alt: "Ivan Zapote portfolio preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ivan Zhang - Software Engineer",
+    title: "Ivan Zapote - Software Engineer",
     description: "Showcasing side projects, resources, and writing on building resilient products.",
   },
 };
