@@ -37,7 +37,7 @@ export default function SiteLayout({
           <div className="flex items-center gap-3">
             <a
               className="hidden rounded-full border border-neutral-200 px-4 py-2 text-sm font-medium text-neutral-700 transition-colors hover:border-neutral-900 hover:text-neutral-900 sm:inline-flex"
-              href="mailto:hello@example.com"
+              href="mailto:ivanzapote.careers@outlook.com"
             >
               Contact
             </a>
@@ -69,13 +69,13 @@ export default function SiteLayout({
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-8 text-sm text-neutral-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
           <p>(c) {new Date().getFullYear()} Ivan Zapote. Crafted with Next.js.</p>
           <div className="flex gap-4 text-sm">
-            <a className="transition hover:text-neutral-800" href="mailto:hello@example.com">
-              hello@example.com
+            <a className="transition hover:text-neutral-800" href="mailto:ivanzapote.careers@outlook.com">
+              ivanzapote.careers@outlook.com
             </a>
-            <a className="transition hover:text-neutral-800" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+            <a className="transition hover:text-neutral-800" href="https://www.linkedin.com/in/ivan-zapote/" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
-            <a className="transition hover:text-neutral-800" href="https://github.com" target="_blank" rel="noreferrer">
+            <a className="transition hover:text-neutral-800" href="https://github.com/LAsGrandeFish" target="_blank" rel="noreferrer">
               GitHub
             </a>
           </div>
