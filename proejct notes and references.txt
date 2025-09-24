@@ -1,2 +1,8 @@
 ctrl + c    :   end next.js app
 npm run dev :   builds project
+
+Typical git work flow
+git status                  : checks for modified files
+git add .                   : adds all modified files to stage for commit 
+git commit -m '<message>'   : commits changes with message about what you changed (on local machine)
+git push origin main        : push to remote respository
