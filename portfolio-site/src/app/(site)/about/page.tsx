@@ -12,21 +12,29 @@ export default function AboutPage() {
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-neutral-500">About</p>
         <h1 className="font-serif text-3xl text-neutral-900 sm:text-4xl">A quick snapshot of the work I lead</h1>
         <p className="text-base leading-relaxed text-neutral-700">
-          I am a product-minded engineer with six years of experience shipping customer-facing experiences across fintech, internal tooling,
-          and productivity platforms. My sweet spot is partnering with design and product peers to translate fuzzy business goals into
-          instrumented, measurable solutions.
+          Ivan Zapote is a software engineer with a strong foundation in computer science, holding a B.S. from the Georgia Institute of
+          Technology with concentrations in Devices and Intelligence. Throughout his academic journey, he developed expertise in artificial
+          intelligence, machine learning, computer vision, and software engineering.
         </p>
         <p className="text-base leading-relaxed text-neutral-700">
-          Recently I have been focused on developer experience, building telemetry pipelines that uncover latency outliers, and crafting
-          component libraries that keep accessibility front and center. Outside of work you will usually find me mentoring early-career
-          engineers or experimenting with hardware projects.
+          Ivan blends creativity with rigorous problem-solving. His projects range from machine-learning models designed for healthcare to
+          collaborative calendar conflict-resolution tools built on cloud platforms. Today he is focused on launching a Spotify playlist
+          management web application that streamlines music library curation.
+        </p>
+        <p className="text-base leading-relaxed text-neutral-700">
+          Guided by curiosity, creativity, and an unwavering belief in free will, Ivan approaches every build with a willingness to explore,
+          iterate, and refine. His guiding principle is simple yet bold: <span className="italic">&quot;change the world.&quot;</span>
+        </p>
+        <p className="text-base leading-relaxed text-neutral-700">
+          Outside of work, he is a dedicated soccer player and fan, and he enjoys exploring languages and global perspectives through news and
+          storytelling. Those interests reflect his love of connection, culture, and continuous learning.
         </p>
         <div>
-          <h2 className="font-semibold text-neutral-900">How I approach new initiatives</h2>
+          <h2 className="font-semibold text-neutral-900">What guides my work</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-relaxed text-neutral-700">
-            <li>Start with discovery interviews and lightweight prototypes to align on the customer job.</li>
-            <li>Instrument the happy path and edge cases so we can observe performance from the first deploy.</li>
-            <li>Coach the team on iteration rituals that keep quality, accessibility, and velocity balanced.</li>
+            <li>Blend imagination with engineering discipline to craft useful, human-centered tools.</li>
+            <li>Stay curious and iterate quickly, letting experiments reveal the next insight.</li>
+            <li>Build experiences that spark connection and make room for people to explore freely.</li>
           </ul>
         </div>
       </div>
