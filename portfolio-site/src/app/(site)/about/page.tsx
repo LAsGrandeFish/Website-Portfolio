@@ -1,6 +1,6 @@
 const facts = [
-  { label: "Location", value: "Seattle, WA" },
-  { label: "Currently", value: "Senior SWE @ Builder Lab" },
+  { label: "Location", value: "Atlanta, GA" },
+  // { label: "Currently", value: "Senior SWE @ Builder Lab" },
   { label: "Focus Areas", value: "Platform UX / Observability / Design Systems" },
   { label: "Open To", value: "Staff+ product engineering roles" },
 ];
@@ -12,9 +12,9 @@ export default function AboutPage() {
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-neutral-500">About</p>
         <h1 className="font-serif text-3xl text-neutral-900 sm:text-4xl">A quick snapshot of the work I lead</h1>
         <p className="text-base leading-relaxed text-neutral-700">
-          Ivan Zapote is a software engineer with a strong foundation in computer science, holding a B.S. from the Georgia Institute of
-          Technology with concentrations in Devices and Intelligence. Throughout his academic journey, he developed expertise in artificial
-          intelligence, machine learning, computer vision, and software engineering.
+          Ivan Zapote is a software engineer with a strong foundation in computer science, holding a B.S. in computer science from the 
+          Georgia Institute of Technology with concentrations in Devices and Intelligence. Throughout his academic journey, he developed 
+          expertise in artificial intelligence, machine learning, computer vision, and software engineering.
         </p>
         <p className="text-base leading-relaxed text-neutral-700">
           Ivan blends creativity with rigorous problem-solving. His projects range from machine-learning models designed for healthcare to
@@ -38,14 +38,30 @@ export default function AboutPage() {
           </ul>
         </div>
       </div>
-      <dl className="grid gap-4 self-start rounded-2xl border border-neutral-200 bg-white p-6 text-sm text-neutral-600 sm:grid-cols-2">
-        {facts.map((fact) => (
-          <div key={fact.label}>
-            <dt className="font-medium text-neutral-500">{fact.label}</dt>
-            <dd className="mt-1 text-neutral-900">{fact.value}</dd>
+      <div className="space-y-6 self-start">
+        <dl className="grid gap-4 rounded-2xl border border-neutral-200 bg-white p-6 text-sm text-neutral-600 sm:grid-cols-2">
+          {facts.map((fact) => (
+            <div key={fact.label}>
+              <dt className="font-medium text-neutral-500">{fact.label}</dt>
+              <dd className="mt-1 text-neutral-900">{fact.value}</dd>
+            </div>
+          ))}
+        </dl>
+        <div className="rounded-2xl border border-[#003057]/40 bg-gradient-to-br from-[#B3A369] via-[#B3A369] to-[#003057] p-6 text-white shadow-sm">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#003057]/80">Georgia Tech</p>
+              <h2 className="mt-2 font-serif text-2xl text-white">Georgia Institute of Technology</h2>
+            </div>
+            <span className="rounded-full bg-white/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-white">
+              B.S. CS
+            </span>
           </div>
-        ))}
-      </dl>
+          <p className="mt-4 text-sm leading-relaxed text-white/90">
+            Devices & Intelligence concentrations Projects across AI, ML, and computer vision Proud Yellow Jacket for life.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }
