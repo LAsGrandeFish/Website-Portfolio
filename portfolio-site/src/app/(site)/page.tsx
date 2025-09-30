@@ -68,7 +68,7 @@ export default function HomePage() {
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-neutral-500">About</p>
             <h2 className="font-serif text-2xl text-neutral-900">Snapshot of my experience</h2>
             <p className="text-sm leading-relaxed text-neutral-700">
-              Six years of product engineering across fintech and productivity tooling with a focus on observability and design systems.
+              Experience designing tools that turn curiosity into impact — from machine learning models to web apps that help people connect and explore.
             </p>
           </div>
           <span className="mt-6 text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">Explore</span>
