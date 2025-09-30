@@ -21,14 +21,13 @@ export default function HomePage() {
         <div className="grid gap-10 lg:grid-cols-[1.6fr_1fr]">
           <div className="rounded-3xl bg-[#F2ECE3] p-10 sm:p-14">
             <p className="text-sm font-medium uppercase tracking-[0.3em] text-neutral-500">
-              Software Engineer / Builder / Mentor
+              Software Engineer / Creative
             </p>
             <h1 className="mt-6 font-serif text-4xl leading-tight text-neutral-900 sm:text-5xl md:text-6xl">
-              Shipping polished, human-centered products end-to-end.
+              Changing the world one task at a time.
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-neutral-700 sm:text-lg">
-              I thrive in the messy middle between product and platform teams, identifying the signal, instrumenting data, and crafting
-              interfaces that make complex systems feel effortless.
+              On a journey of exploration, seeking new opportunities to learn while making a positive impact on those around me.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link
@@ -69,7 +68,7 @@ export default function HomePage() {
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-neutral-500">About</p>
             <h2 className="font-serif text-2xl text-neutral-900">Snapshot of my experience</h2>
             <p className="text-sm leading-relaxed text-neutral-700">
-              Six years of product engineering across fintech and productivity tooling with a focus on observability and design systems.
+              Experience designing tools that turn curiosity into impact — from machine learning models to web apps that help people connect and explore.
             </p>
           </div>
           <span className="mt-6 text-xs font-semibold uppercase tracking-[0.2em] text-neutral-500">Explore</span>
