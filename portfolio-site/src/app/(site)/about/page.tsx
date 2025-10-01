@@ -1,8 +1,8 @@
 const facts = [
   { label: "Location", value: "Atlanta, GA" },
   // { label: "Currently", value: "Senior SWE @ Builder Lab" },
-  { label: "Focus Areas", value: "Platform UX / Observability / Design Systems" },
-  { label: "Open To", value: "Staff+ product engineering roles" },
+  { label: "Focus Areas", value: "Frontend / UI Design / Web Applications" },
+  { label: "Open To", value: "SWE, Network Engineer, IT" },
 ];
 
 export default function AboutPage() {
@@ -10,7 +10,7 @@ export default function AboutPage() {
     <section className="grid gap-10 lg:grid-cols-[1.2fr_1fr]">
       <div className="space-y-6">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-neutral-500">About</p>
-        <h1 className="font-serif text-3xl text-neutral-900 sm:text-4xl">A quick snapshot of the work I lead</h1>
+        <h1 className="font-serif text-3xl text-neutral-900 sm:text-4xl">A quick snapshot of my work and I</h1>
         <p className="text-base leading-relaxed text-neutral-700">
           Ivan Zapote is a software engineer with a strong foundation in computer science, holding a B.S. in computer science from the 
           Georgia Institute of Technology with concentrations in Devices and Intelligence. Throughout his academic journey, he developed 
@@ -58,7 +58,7 @@ export default function AboutPage() {
             </span>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-white/90">
-            Devices & Intelligence concentrations Projects across AI, ML, and computer vision Proud Yellow Jacket for life.
+            Devices & Intelligence concentrations · Projects across AI, ML, and computer vision · Proud Yellow Jacket for life.
           </p>
         </div>
       </div>
