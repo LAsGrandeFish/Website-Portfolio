@@ -6,3 +6,14 @@ git status                  : checks for modified files
 git add .                   : adds all modified files to stage for commit 
 git commit -m '<message>'   : commits changes with message about what you changed (on local machine)
 git push origin main        : push to remote respository
+
+Creating a new branch and pushing it to github
+git switch -c <new-branch>      : creates and switches to new branch (locally)
+git push -u origin <new-branch> : pushes a branch to github that you have never pushed before and enable tracking
+
+** <new-branch> has created a pull request on GitHub and was merged **
+** clean up below **
+
+git switch main                 : switches back to main
+git fetch --prune               : update remote repos, Git cleans up branches that no longer exist on GitHub
+git branch -d <new-branch>      : safe deletes branch (won't delete if unmerged changes exist; cleans up locally)
