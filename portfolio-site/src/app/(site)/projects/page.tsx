@@ -14,7 +14,7 @@ export default function ProjectsPage() {
             Each project link includes a deeper breakdown of outcomes and implementation details.
           </p>
         </div>
-        <a className="hidden text-sm font-medium text-neutral-600 hover:text-neutral-900 sm:inline" href="mailto:hello@example.com">
+        <a className="hidden text-sm font-medium text-neutral-600 hover:text-neutral-900 sm:inline" href="mailto:ivanzapote.careers@outlook.com">
           Request a walkthrough
         </a>
       </div>
