@@ -1,13 +1,16 @@
+[Fundemental App Startup & Controls]
 ctrl + c    :   end next.js app
 npm run dev :   builds project
 
-Typical git work flow
+
+[Typical git work flow]
 git status                  : checks for modified files
 git add .                   : adds all modified files to stage for commit 
 git commit -m '<message>'   : commits changes with message about what you changed (on local machine)
 git push origin main        : push to remote respository
 
-Creating a new branch and pushing it to github
+
+[Creating a new branch and pushing it to github]
 git switch -c <new-branch>      : creates and switches to new branch (locally)
 git push -u origin <new-branch> : pushes a branch to github that you have never pushed before and enable tracking
 

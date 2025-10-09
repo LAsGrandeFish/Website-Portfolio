@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const projects = [
   {
     title: "Experimenting with Observability",
@@ -20,6 +22,13 @@ export const projects = [
     tech: "React Native / SQLite / Service Workers",
     href: "#",
   },
+  {
+    title: "Hi-Fi Spotify Mockup",
+    description:
+      "Mocked up the Spotify web app from reference screenshots with scrollable sidebar and main content areas plus grouped interactive components for prototyping, deviating only in the typeface choice.",
+      tech: "Figma",
+      href: "https://www.figma.com/community/file/1474517923546819508/spotify-basic-hi-fi-mockup",
+  }
 ];
 
 export const resources = [
